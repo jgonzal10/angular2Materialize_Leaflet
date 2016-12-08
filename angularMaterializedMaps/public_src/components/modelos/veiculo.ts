@@ -1,0 +1,36 @@
+export class Veiculo {
+id: string;
+placa: string;
+licenciamento: string;
+ordem: string;
+data: string;
+data_desativacao: string;
+chassi: string;
+marca: string;
+modelo: string;
+ano_fabri: string;
+ano_modelo: string;
+validator: string;
+capacidade: string;
+cidade: string;
+estado: string;
+situacao: string;
+plataforma: string;
+id_emp: string;
+id_emp1: string;
+cnpj_empresa: string;
+typopersoa: string;
+razaosocial: string;
+nomefantasia: string;
+endereco: string;
+numero: string;
+complemento: string;
+bairro: string;
+cep: string;
+municipio: string;
+uf:string;
+email: string;
+contato: string;
+telefone: string;
+id_cons: string;
+}

@@ -1,0 +1,45 @@
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-xl-12">
+            <h2 class="page-header">
+                <i class="fa fa-users"></i>Usuarios
+            </h2>
+            <a href="Javascript:void(0);" routerLink="/home/usuarios/add"><i class="fa fa-plus"></i>Novo</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Login</th>
+                            <th>Nome</th>
+                            <th>Nome de Guerra</th>
+                            <th>CPF</th>
+                            <th>Perfil</th>
+                            <th>Segmento</th>
+                            <th>Grupo</th>
+                            <th>Opções</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let usuario of usuarios">
+                            <td>{{usuario.login}}</td>
+                            <td>{{usuario.nome}}</td>
+                            <td>{{usuario.guerra}}</td>
+                            <td>{{usuario.cpf}}</td>
+                            <td>{{usuario.perfil}}</td>
+                            <td>{{usuario.segmento}}</td>
+                            <td>{{usuario.nome_grupo}}</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
